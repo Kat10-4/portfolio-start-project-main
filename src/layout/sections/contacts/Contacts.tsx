@@ -29,6 +29,8 @@ export const Contacts: React.FC = () => {
                     console.log('FAILED...', error.text);
                 },
             );
+
+        e.target.reset()
     };
 
     return (
